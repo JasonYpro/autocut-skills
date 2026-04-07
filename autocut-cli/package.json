@@ -1,0 +1,50 @@
+{
+  "name": "@jasonypro/autocut",
+  "version": "2.0.0",
+  "description": "AI-powered video clipping CLI tool for podcast and talking-head videos",
+  "type": "module",
+  "bin": {
+    "autocut": "./bin/autocut.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "static"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "video",
+    "clipping",
+    "subtitle",
+    "ffmpeg",
+    "ai",
+    "transcription",
+    "podcast",
+    "talking-head",
+    "auto-cut"
+  ],
+  "author": "JasonYpro",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonYpro/videocut-cli-source.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JasonYpro/videocut-cli-source/issues"
+  },
+  "homepage": "https://github.com/JasonYpro/videocut-cli-source#readme",
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
